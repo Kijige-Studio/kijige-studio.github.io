@@ -18,7 +18,8 @@ A one-person studio making small apps for everyday life.
     <span class="sub"><a href="/snow-tail/privacy/">개인정보처리방침</a> · <a href="/snow-tail/support/">고객지원</a></span>
   </li>
   <li>
-    <a href="/10p/?stay">10p</a>
+    <a href="/10p/?stay">10p</a><br>
+    <span class="sub"><a href="/10p/privacy/">개인정보처리방침</a></span>
   </li>
   <li>
     <a href="/kurtain/">Kurtain</a><br>
