@@ -1,0 +1,113 @@
+:root {
+  --bg: #faf6ee;
+  --fg: #2b2620;
+  --muted: #7a7064;
+  --link: #a8501f;
+  --link-hover: #7c3a14;
+  --rule: #e4dccb;
+  --th-bg: #f1eadb;
+  --code-bg: #f1eadb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1915;
+    --fg: #e8e1d3;
+    --muted: #a09685;
+    --link: #e8a06b;
+    --link-hover: #f4c093;
+    --rule: #3a342b;
+    --th-bg: #28231d;
+    --code-bg: #28231d;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: Pretendard, "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.35;
+  margin: 2em 0 0.6em;
+  font-weight: 700;
+}
+h1 { font-size: 1.75rem; margin-top: 0; }
+h2 { font-size: 1.35rem; padding-bottom: 0.25em; border-bottom: 1px solid var(--rule); }
+h3 { font-size: 1.1rem; }
+
+p, ul, ol, table, blockquote, pre { margin: 0 0 1.1em; }
+
+ul, ol { padding-left: 1.4em; }
+li { margin: 0.25em 0; }
+
+a {
+  color: var(--link);
+  text-underline-offset: 3px;
+}
+a:hover { color: var(--link-hover); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+th, td {
+  border: 1px solid var(--rule);
+  padding: 0.5em 0.75em;
+  text-align: left;
+  vertical-align: top;
+}
+th { background: var(--th-bg); font-weight: 600; }
+
+blockquote {
+  padding: 0.1em 1em;
+  border-left: 3px solid var(--rule);
+  color: var(--muted);
+}
+
+code {
+  background: var(--code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+pre { background: var(--code-bg); padding: 1em; border-radius: 6px; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
+
+.page-title { margin-bottom: 1em; }
+
+.app-list { list-style: none; padding: 0; }
+.app-list > li { margin: 0 0 1.2em; }
+.app-list .sub { color: var(--muted); font-size: 0.95rem; }
+
+.business {
+  margin-top: 3.5em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+.business p { margin: 0 0 0.4em; }
+.business a { color: inherit; }

@@ -1,0 +1,9 @@
+title: Kijige Studio
+url: https://kijige-studio.github.io
+baseurl: ''
+lang: ko
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+exclude:
+  - README.md
