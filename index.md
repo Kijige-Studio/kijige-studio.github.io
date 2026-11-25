@@ -6,9 +6,9 @@ title: Kijige Studio
 
 # 기지개스튜디오 · Kijige Studio
 
-1인 앱 스튜디오입니다. 나른한 저녁에 기지개를 켜는 고양이 같은 앱을 만듭니다.
+일상에 필요한 작은 앱을 만드는 1인 스튜디오입니다.
 
-A one-person app studio making apps that feel like a cat stretching on a lazy evening.
+A one-person studio making small apps for everyday life.
 
 ## Apps
 
